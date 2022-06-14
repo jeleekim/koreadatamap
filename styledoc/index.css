@@ -1,61 +1,499 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: inherit;
 }
 
 body {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  background-color: rgb(14, 10, 23);
-  display: flex;
-  flex-direction: row;
   overflow: hidden;
+  box-sizing: border-box;
+  background-color: #2B3134;
 }
-body .left-box {
-  width: 35%;
-  height: 100%;
-  background-color: red;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-body .left-box .text-box {
-  width: 90%;
-  height: 70%;
-  padding: 10px;
-  background-color: bisque;
-}
-body .right-box {
-  width: 65%;
-  height: 100%;
-  background-color: aqua;
-  display: flex;
-  align-items: center;
-}
-body .right-box .card-box {
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
+body .main-box {
+  background-color: rgba(32, 32, 32, 0.8);
+  width: 2500px;
+  height: 2500px;
+  position: fixed;
   right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+  border-radius: 50%;
 }
-body .right-box .card-box .seoul-card {
-  background-color: white;
-  width: 200px;
-  height: 270px;
-  margin: 0 20px;
-  display: inline-block;
+body .main-box .card-box {
+  width: 2400px;
+  height: 2400px;
+  margin: 10px;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%, -50%);
+  border-radius: 50%;
+  list-style: none;
+  list-style: none;
+  list-style: none;
+  list-style: none;
+  list-style: none;
+  list-style: none;
+  list-style: none;
+  list-style: none;
+  list-style: none;
+  list-style: none;
+  list-style: none;
+  list-style: none;
+  list-style: none;
+  list-style: none;
+  list-style: none;
+  list-style: none;
+  list-style: none;
+  list-style: none;
+  list-style: none;
+  list-style: none;
+  list-style: none;
+  list-style: none;
+  list-style: none;
+  list-style: none;
+  list-style: none;
+}
+body .main-box .bt-box {
+  width: 800px;
+  height: 800px;
+  border: 20px solid black;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%, -50%);
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+body .main-box .bt-box .bt-wrapper1 {
+  list-style: none;
+  height: 100%;
+  width: 120px;
+  height: 85%;
+  position: absolute;
+  transform: rotate(-18deg);
+  display: flex;
+  justify-content: center;
+}
+body .main-box .bt-box .bt-wrapper1 .bt1 {
+  background-color: rgb(187, 179, 109);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  transform: rotate(18deg);
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(94, 189, 102), 0px 0px 65px rgb(37, 196, 100), 0px 0px 200px rgb(75, 252, 90);
+}
+body .main-box .bt-box .bt-wrapper1 .bt2 {
+  background-color: rgb(167, 179, 109);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  transform: rotate(54deg);
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(94, 189, 102), 0px 0px 65px rgb(37, 196, 100), 0px 0px 200px rgb(75, 252, 90);
+}
+body .main-box .bt-box .bt-wrapper1 .bt3 {
+  background-color: rgb(147, 179, 109);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  transform: rotate(90deg);
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(94, 189, 102), 0px 0px 65px rgb(37, 196, 100), 0px 0px 200px rgb(75, 252, 90);
+}
+body .main-box .bt-box .bt-wrapper1 .bt4 {
+  background-color: rgb(127, 179, 109);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  transform: rotate(126deg);
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(94, 189, 102), 0px 0px 65px rgb(37, 196, 100), 0px 0px 200px rgb(75, 252, 90);
+}
+body .main-box .bt-box .bt-wrapper1 .bt5 {
+  background-color: rgb(107, 179, 109);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  transform: rotate(162deg);
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(94, 189, 102), 0px 0px 65px rgb(37, 196, 100), 0px 0px 200px rgb(75, 252, 90);
+}
+body .main-box .bt-box .bt-wrapper1 .bt1 {
+  transform: rotate(-18deg);
+}
+body .main-box .bt-box .bt-wrapper1 .bt5 {
+  transform: rotate(198deg);
+}
+body .main-box .bt-box .bt-wrapper2 {
+  list-style: none;
+  height: 100%;
+  width: 120px;
+  height: 85%;
+  position: absolute;
+  transform: rotate(-54deg);
+  display: flex;
+  justify-content: center;
+}
+body .main-box .bt-box .bt-wrapper2 .bt1 {
+  background-color: rgb(187, 179, 109);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  transform: rotate(18deg);
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(94, 189, 102), 0px 0px 65px rgb(37, 196, 100), 0px 0px 200px rgb(75, 252, 90);
+}
+body .main-box .bt-box .bt-wrapper2 .bt2 {
+  background-color: rgb(167, 179, 109);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  transform: rotate(54deg);
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(94, 189, 102), 0px 0px 65px rgb(37, 196, 100), 0px 0px 200px rgb(75, 252, 90);
+}
+body .main-box .bt-box .bt-wrapper2 .bt3 {
+  background-color: rgb(147, 179, 109);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  transform: rotate(90deg);
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(94, 189, 102), 0px 0px 65px rgb(37, 196, 100), 0px 0px 200px rgb(75, 252, 90);
+}
+body .main-box .bt-box .bt-wrapper2 .bt4 {
+  background-color: rgb(127, 179, 109);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  transform: rotate(126deg);
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(94, 189, 102), 0px 0px 65px rgb(37, 196, 100), 0px 0px 200px rgb(75, 252, 90);
+}
+body .main-box .bt-box .bt-wrapper2 .bt5 {
+  background-color: rgb(107, 179, 109);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  transform: rotate(162deg);
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(94, 189, 102), 0px 0px 65px rgb(37, 196, 100), 0px 0px 200px rgb(75, 252, 90);
+}
+body .main-box .bt-box .bt-wrapper2 .bt1 {
+  transform: rotate(-18deg);
+}
+body .main-box .bt-box .bt-wrapper2 .bt5 {
+  transform: rotate(198deg);
+}
+body .main-box .bt-box .bt-wrapper3 {
+  list-style: none;
+  height: 100%;
+  width: 120px;
+  height: 85%;
+  position: absolute;
   transform: rotate(-90deg);
+  display: flex;
+  justify-content: center;
 }
-body .right-box .card-box .busan-card {
-  background-color: wheat;
-  width: 200px;
-  height: 270px;
-  margin: 0 20px;
-  display: inline-block;
+body .main-box .bt-box .bt-wrapper3 .bt1 {
+  background-color: rgb(187, 179, 109);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  transform: rotate(18deg);
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(94, 189, 102), 0px 0px 65px rgb(37, 196, 100), 0px 0px 200px rgb(75, 252, 90);
+}
+body .main-box .bt-box .bt-wrapper3 .bt2 {
+  background-color: rgb(167, 179, 109);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  transform: rotate(54deg);
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(94, 189, 102), 0px 0px 65px rgb(37, 196, 100), 0px 0px 200px rgb(75, 252, 90);
+}
+body .main-box .bt-box .bt-wrapper3 .bt3 {
+  background-color: rgb(147, 179, 109);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  transform: rotate(90deg);
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(94, 189, 102), 0px 0px 65px rgb(37, 196, 100), 0px 0px 200px rgb(75, 252, 90);
+}
+body .main-box .bt-box .bt-wrapper3 .bt4 {
+  background-color: rgb(127, 179, 109);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  transform: rotate(126deg);
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(94, 189, 102), 0px 0px 65px rgb(37, 196, 100), 0px 0px 200px rgb(75, 252, 90);
+}
+body .main-box .bt-box .bt-wrapper3 .bt5 {
+  background-color: rgb(107, 179, 109);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  transform: rotate(162deg);
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(94, 189, 102), 0px 0px 65px rgb(37, 196, 100), 0px 0px 200px rgb(75, 252, 90);
+}
+body .main-box .bt-box .bt-wrapper3 .bt1 {
+  transform: rotate(-18deg);
+}
+body .main-box .bt-box .bt-wrapper3 .bt5 {
+  transform: rotate(198deg);
+}
+body .main-box .bt-box .bt-wrapper4 {
+  list-style: none;
+  height: 100%;
+  width: 120px;
+  height: 85%;
+  position: absolute;
+  transform: rotate(-126deg);
+  display: flex;
+  justify-content: center;
+}
+body .main-box .bt-box .bt-wrapper4 .bt1 {
+  background-color: rgb(187, 179, 109);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  transform: rotate(18deg);
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(94, 189, 102), 0px 0px 65px rgb(37, 196, 100), 0px 0px 200px rgb(75, 252, 90);
+}
+body .main-box .bt-box .bt-wrapper4 .bt2 {
+  background-color: rgb(167, 179, 109);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  transform: rotate(54deg);
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(94, 189, 102), 0px 0px 65px rgb(37, 196, 100), 0px 0px 200px rgb(75, 252, 90);
+}
+body .main-box .bt-box .bt-wrapper4 .bt3 {
+  background-color: rgb(147, 179, 109);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  transform: rotate(90deg);
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(94, 189, 102), 0px 0px 65px rgb(37, 196, 100), 0px 0px 200px rgb(75, 252, 90);
+}
+body .main-box .bt-box .bt-wrapper4 .bt4 {
+  background-color: rgb(127, 179, 109);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  transform: rotate(126deg);
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(94, 189, 102), 0px 0px 65px rgb(37, 196, 100), 0px 0px 200px rgb(75, 252, 90);
+}
+body .main-box .bt-box .bt-wrapper4 .bt5 {
+  background-color: rgb(107, 179, 109);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  transform: rotate(162deg);
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(94, 189, 102), 0px 0px 65px rgb(37, 196, 100), 0px 0px 200px rgb(75, 252, 90);
+}
+body .main-box .bt-box .bt-wrapper4 .bt1 {
+  transform: rotate(-18deg);
+}
+body .main-box .bt-box .bt-wrapper4 .bt5 {
+  transform: rotate(198deg);
+}
+body .main-box .bt-box .bt-wrapper5 {
+  list-style: none;
+  height: 100%;
+  width: 120px;
+  height: 85%;
+  position: absolute;
+  transform: rotate(-162deg);
+  display: flex;
+  justify-content: center;
+}
+body .main-box .bt-box .bt-wrapper5 .bt1 {
+  background-color: rgb(187, 179, 109);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  transform: rotate(18deg);
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(94, 189, 102), 0px 0px 65px rgb(37, 196, 100), 0px 0px 200px rgb(75, 252, 90);
+}
+body .main-box .bt-box .bt-wrapper5 .bt2 {
+  background-color: rgb(167, 179, 109);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  transform: rotate(54deg);
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(94, 189, 102), 0px 0px 65px rgb(37, 196, 100), 0px 0px 200px rgb(75, 252, 90);
+}
+body .main-box .bt-box .bt-wrapper5 .bt3 {
+  background-color: rgb(147, 179, 109);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  transform: rotate(90deg);
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(94, 189, 102), 0px 0px 65px rgb(37, 196, 100), 0px 0px 200px rgb(75, 252, 90);
+}
+body .main-box .bt-box .bt-wrapper5 .bt4 {
+  background-color: rgb(127, 179, 109);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  transform: rotate(126deg);
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(94, 189, 102), 0px 0px 65px rgb(37, 196, 100), 0px 0px 200px rgb(75, 252, 90);
+}
+body .main-box .bt-box .bt-wrapper5 .bt5 {
+  background-color: rgb(107, 179, 109);
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  transform: rotate(162deg);
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(94, 189, 102), 0px 0px 65px rgb(37, 196, 100), 0px 0px 200px rgb(75, 252, 90);
+}
+body .main-box .bt-box .bt-wrapper5 .bt1 {
+  transform: rotate(-18deg);
+}
+body .main-box .bt-box .bt-wrapper5 .bt5 {
+  transform: rotate(198deg);
+}
+body .main-box .menu-wrapper {
+  background-color: white;
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  padding: auto 0;
+  box-shadow: 0px 0px 7px #fff, 0px 0px 10px #fff, 0px 0px 12px #fff, 0px 0px 42px rgb(37, 84, 131), 0px 0px 65px rgb(37, 84, 131), 0px 0px 200px rgb(131, 164, 197);
+}
+body .main-box .menu-wrapper .menu {
+  box-sizing: content-box;
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  transform: translate(-15%, -50%);
+  font-size: 45px;
 }
 
 /*# sourceMappingURL=index.css.map */
