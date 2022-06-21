@@ -3,23 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link href="../styledoc/index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>KOdataMap</title>
 </head>
 <body>
-    <section class="left-box">
-        <div class="text-box">
-            <h1>
-                This website we search house value data and
-            </h1>
+    <section class="user-box">
+        <div class="search-box">
+            <input id="search" class="search" placeholder="search">
+            <span class="search-icon material-icons">search</span>
         </div>
     </section>
-    <section class="right-box">
-        <div class="card-box">
-            <div class="seoul-card"></div>
-            <div class="busan-card"></div>
+
+    <!-- <div class="test-box"></div> -->
+    <section class="main-box">
+        <ol id="cardBox" class="card-box">
+            <li class="card1">Jongno-gu</li>
+            <li class="card2">Jung-gu</li>
+            <li class="card3">Yongsan-gu</li>
+            <li class="card4">Seongdong-gu</li>
+            <li class="card5">Gwangjin-gu</li>
+            <li class="card6">Dongdaemun-gu</li>
+            <li class="card7">Jungnang-gu</li>
+            <li class="card8">Seongbuk-gu</li>
+            <li class="card9">Gangbuk-gu</li>
+            <li class="card10">Dobong-gu</li>
+            <li class="card11">Nowon-gu</li>
+            <li class="card12">Eunpyeong-gu</li>
+            <li class="card13">Seodaemun-gu</li>
+            <li class="card14">Mapo-gu</li>
+            <li class="card15">Yangcheon-gu</li>
+            <li class="card16">Gangseo-gu</li>
+            <li class="card17">Guro-gu</li>
+            <li class="card18">Geumcheon-gu</li>
+            <li class="card19">Yeongdeungpo-gu</li>
+            <li class="card20">Dongjak-gu</li>
+            <li class="card21">Gwanak-gu</li>
+            <li class="card22">Seocho-gu</li>
+            <li class="card23">Gangnam-gu</li>
+            <li class="card24">Songpa-gu</li>
+            <li class="card25">Gangdong-gu</li>
+        </ol>
+        <div class="bt-box">
+            <li class="bt-wrapper1">
+                <span id="upSpin" class="bt1 material-icons">double_arrow</span>
+            </li>
+            <li class="bt-wrapper2">
+                <span id="speedUp" class="bt2 material-icons">add</span>
+            </li>
+            <li class="bt-wrapper3">
+                <span id="stopSpin" class="bt3 material-icons">stop</span>
+            </li>
+            <li class="bt-wrapper4">
+                <span id="minusSpin" class="bt4 material-icons"> remove</span>
+            </li>
+            <li class="bt-wrapper5">
+                <span id="downSpin" class="bt5 material-icons">double_arrow</span>
+            </li>
+        </div>
+        <div class="menu-wrapper">
+            <menu class="menu material-icons">menu</menu>
         </div>
     </section>
+    <script src="../script/btn.js"></script>
 </body>
 </html>
